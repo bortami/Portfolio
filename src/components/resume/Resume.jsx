@@ -3,58 +3,46 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
+    jobPosition: `Director of Web Developmeny and Interactive`,
+    jobType: `Bridges | In-Office`,
+    jobDuration: `Jan 2021 - Present`,
     timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "Bridges Strategies and Digital Marketing",
+    jobDescription: `I develop custom HubSpot based web soltuions.`,
   },
   {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
+    jobPosition: `Event Marketing Manager`,
+    jobType: `EnMotive | In-Office`,
+    jobDuration: `Nov 2019 - Dec 2020`,
+    timeDuraton: `Full Time`,
+    compnayName: "EnMotive / Gannett",
+    jobDescription: `I created registration websites for endurance events. I timed live events using Chronotrack software, networking hardware, and RFID readers. I created and maintained databases for registrations, donations, and race timing results. I also managed all digital and social marketing for event clients.`,
+  },
+  {
+    jobPosition: `Web and Graphic Designer`,
+    jobType: `Self-Employeed | Freelance`,
+    jobDuration: `Jan 2012 - Jan 2021`,
     timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
-  },
-  {
-    jobPosition: `Animation Artist`,
-    jobType: `IbThemes | Remote`,
-    jobDuration: `Jan 2019 - Present`,
-    timeDuraton: `Full Time`,
-    compnayName: "IB Themes",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "Self-Employed",
+    jobDescription: `I designed and developed websites for various clients using multiple platforms such as Wix, Shopify, Wordpress, and custom coded options. I also performed graphic design services for physical products such as invitations, business cards, t-shirts, and signage.`,
   },
 ];
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "2021",
+    degreeTitle: "Associates in Science in Business Management",
+    instituteName: "University Of Oklahoma",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
+    passingYear: "2018 - 2019",
+    degreeTitle: "Certificate in Front-End Development",
+    instituteName: "NewForece Software School",
   },
   {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "2014-2015",
+    degreeTitle: "Accounting and Management",
+    instituteName: "Marshall University",
   },
 ];
 

@@ -14,19 +14,19 @@ const ContactInfo = () => {
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              123 Stree New York City , United States Of America 750065.
+              Oklahoma City, Oklahoma, United States Of America
             </span>
           </li>
 
           <li className="media">
             <i className="icon icon-envelope"></i>
-            <span className="media-body">support@domain.com</span>
+            <span className="media-body">mi@chelletabor.com</span>
           </li>
 
-          <li className="media">
+          {/* <li className="media">
             <i className="icon icon-phone"></i>
             <span className="media-body">+044 9696 9696 3636</span>
-          </li>
+          </li> */}
         </ul>
       </div>
       {/* End .contact-info */}

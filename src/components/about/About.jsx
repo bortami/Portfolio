@@ -38,7 +38,7 @@ const About = () => {
                 <div className="about-text">
                   <p>
                     I'm a Certified HubSpot CMS Developer with over a decade of 
-                    experience building functional, beautiful, and converting websites.  
+                    experience building functional, beautiful, and effective websites.  
                     I am from West Virginia, and I have found a home in Oklahoma.
                     I'm mostly self-taught with some refining from NewForce Software School.
                     
@@ -127,7 +127,7 @@ const About = () => {
           {/* End separated */}
 
           <div className="title">
-            <h3>Awards.</h3>
+            <h3>Certifications.</h3>
           </div>
           <Awards />
           {/* End Awards */}

@@ -28,10 +28,10 @@ const Slider = () => {
           <div className="hb-lang">
             <ul className="nav">
               <li className="active">
-                <a href="#">EN</a>
+                <a href="#">Light</a>
               </li>
               <li>
-                <a href="#">DE</a>
+                <a href="#">Dark</a>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ const Slider = () => {
                 <TextLoop>
                   <p className="loop-text lead">Certified HubSpot CMS Developer</p>
                   <p className="loop-text lead"> Front End Developer</p>
-                  <p className="loop-text lead"> Ops Developer</p>
+                  <p className="loop-text lead"> Operations Developer</p>
                 </TextLoop>{" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">
