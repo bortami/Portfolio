@@ -2,16 +2,15 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
+  // phone: "+04 6545-9535-6515",
+  email: "mi@chelletabor.com",
 };
 
 const sliderContent = {
-  name: "Nairobi Gadot",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
-  btnText: " Donwload CV",
+  name: "Michelle Tabor",
+  description: `I design and develop solutions for businesses. I
+  specialize in creating optimized and streamlined websites, applications, integrations, and automations.`,
+  btnText: " Download Resume",
 };
 
 const Slider = () => {
@@ -21,8 +20,8 @@ const Slider = () => {
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
-            <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:ibthemes21@gmail.com,com">
+            {/* <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a> */}
+            <a href="mailto:mi@chelletabor.com">
               {conctInfo.email}
             </a>
           </div>
@@ -32,7 +31,7 @@ const Slider = () => {
                 <a href="#">EN</a>
               </li>
               <li>
-                <a href="#">FR</a>
+                <a href="#">DE</a>
               </li>
             </ul>
           </div>
@@ -46,9 +45,9 @@ const Slider = () => {
                 <h6>Hello, My name is</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
                 <TextLoop>
-                  <p className="loop-text lead">Full-stack Developer</p>
-                  <p className="loop-text lead"> UI/UX Designer</p>
-                  <p className="loop-text lead"> App Developer</p>
+                  <p className="loop-text lead">Certified HubSpot CMS Developer</p>
+                  <p className="loop-text lead"> Front End Developer</p>
+                  <p className="loop-text lead"> Ops Developer</p>
                 </TextLoop>{" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">

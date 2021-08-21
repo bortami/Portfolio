@@ -21,8 +21,8 @@ const About = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Ux/Ui Designer</p>
-                  <h3>Nairobi Gadot</h3>
+                  <p>Web Developer</p>
+                  <h3>Michelle Tabor</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -37,16 +37,17 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    I'm a Certified HubSpot CMS Developer with over a decade of 
+                    experience building functional, beautiful, and converting websites.  
+                    I am from West Virginia, and I have found a home in Oklahoma.
+                    I'm mostly self-taught with some refining from NewForce Software School.
+                    
                   </p>
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                  I love working with businesses to create the tools and apps that
+                    help their businesses grow.
+                    I focus on developing functional applications, integrations, and automations
+                    to assist businesses streamline their processes and operations.
                   </p>
                 </div>
                 <div className="info-list">
@@ -55,39 +56,39 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Name: </label>
-                          <span>Nairobi Gadot</span>
+                          <span>Michelle Tabor</span>
                         </li>
+                        {/* <li>
+                          <label>Most Recent Certifcation: </label>
+                          <span>Hubspot</span>
+                        </li> */}
+                        {/* <li>
+                          <label>Number of Dogs: </label>
+                          <span>Two</span>
+                        </li> */}
                         <li>
-                          <label>Birthday: </label>
-                          <span>4th April 1994</span>
-                        </li>
-                        <li>
-                          <label>Age: </label>
-                          <span>26 years</span>
-                        </li>
-                        <li>
-                          <label>Address: </label>
-                          <span>San Francisco</span>
+                          <label>Homebase: </label>
+                          <span>Oklahoma City</span>
                         </li>
                       </ul>
                     </div>
                     <div className="col-sm-6">
                       <ul>
-                        <li>
+                        {/* <li>
                           <label>Phone: </label>
-                          <span>(+38) 469 2344 2364</span>
-                        </li>
+                          <span>(405) 673 2181</span>
+                        </li> */}
                         <li>
                           <label>Email: </label>
-                          <span>info@domainname.com</span>
+                          <span>mi@chelletabor.com</span>
                         </li>
-                        <li>
+                        {/* <li>
                           <label>Skype: </label>
                           <span>nairob.40</span>
-                        </li>
+                        </li> */}
                         <li>
-                          <label>Freelance: </label>
-                          <span>Available</span>
+                          <label>Open to New Projects: </label>
+                          <span>Not Available</span>
                         </li>
                       </ul>
                     </div>
