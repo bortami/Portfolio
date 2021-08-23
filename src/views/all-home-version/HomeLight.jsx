@@ -38,15 +38,15 @@ const HomeOne = () => {
       </section>
       {/* End Portfolio Section */}
 
-      <section id="blog" className="section">
+      {/* <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
           <Blog />
         </div>
-      </section>
-      {/* End Portfolio Section */}
+      </section> */}
+      {/* End Blog Section */}
 
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">
@@ -65,7 +65,7 @@ const HomeOne = () => {
             {/* End contact form */}
 
             <div className="col-12">
-              <Map />
+              {/* <Map /> */}
               {/* End google-map */}
             </div>
             {/* End Col */}

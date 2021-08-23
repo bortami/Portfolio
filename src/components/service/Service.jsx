@@ -3,18 +3,18 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-mobile",
-    title: "HubSpot and Web Development",
+    title: "HubSpot Web Development",
     descriptions: `I create themes, templates, email templates, and customized websites and web apps for clients using HubSpot CRM and CMS. I mainly use HubL, a python based templating language. I create custom web based applications using various frameworks, from python/django based web scraping apps to custom applications using a MERN stack.`,
   },
   {
     icon: "icon-desktop",
-    title: "Auditing Technicals and Optimizations",
+    title: "Auditing and Optimizations",
     descriptions: `I audit  marketing websites for technical SEO, usability, mobile responsiveness, and technical errors using manual and automated methods. I then optimize those sites to the most recent best practices for SEO and Core Web Vitals. This includes optimizing package loadouts, site structure, image sizes, metas and canonicals, redirects, and broken links and assets.`,
   },
   {
     icon: "icon-target",
     title: "Operations Development",
-    descriptions: `Operationss Development is a fairly new term, but it means I build integrations, workflows, and script-based automations for marketing actions, contact management, database management to align business operations and processes with automated solutions in the business's software stack.`,
+    descriptions: `Operations Development is a fairly new term, but it means I build integrations, workflows, serverless functions, and script-based automations for marketing and operations actions and contact, content, and database management to align business operations and processes with automated solutions in the business's software stack.`,
   },
 ];
 export default function Service() {

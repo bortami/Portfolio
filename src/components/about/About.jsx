@@ -143,12 +143,12 @@ const About = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Testimonials.</h3>
           </div>
           <Testimonials />
-          {/* End Testimonaial */}
-        </div>
+         /* End Testimonaials */}
+        </div> 
       </section>
     </>
   );

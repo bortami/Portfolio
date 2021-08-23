@@ -27,12 +27,12 @@ const Slider = () => {
           </div>
           <div className="hb-lang">
             <ul className="nav">
-              <li className="active">
-                <a href="#">Light</a>
+              {/* <li className="active">
+                <a href="/">Light</a>
               </li>
               <li>
-                <a href="#">Dark</a>
-              </li>
+                <a href="/dark">Dark</a>
+              </li> */}
             </ul>
           </div>
         </div>

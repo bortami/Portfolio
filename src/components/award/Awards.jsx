@@ -2,19 +2,19 @@ import React from "react";
 
 const AwardContnet = [
   {
-    img: "a1",
+    img: "gdd",
     awardName: "Growth Driven Design",
     awardFor: "Expires 2023",
   },
   {
-    img: "a2",
+    img: "de",
     awardName: "CMS Developer",
     awardFor: "Expires 2022",
   },
   {
-    img: "a3",
+    img: "im",
     awardName: "Inbound Marketing",
-    awardFor: "Expires 2022",
+    awardFor: "Epires 2022",
   },
 ];
 

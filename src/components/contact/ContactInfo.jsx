@@ -6,7 +6,7 @@ const ContactInfo = () => {
       <div className="contact-info">
         <h4>What’s your story? Get in touch</h4>
         <p>
-          Always available for freelancing if the right project comes along,
+          Always available for freelancing if the right project comes along.
           Feel free to contact me.
         </p>
 
@@ -14,7 +14,7 @@ const ContactInfo = () => {
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              Oklahoma City, Oklahoma, United States Of America
+              Oklahoma City, Oklahoma
             </span>
           </li>
 
