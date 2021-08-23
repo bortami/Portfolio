@@ -6,7 +6,7 @@ const ContactInfo = () => {
       <div className="contact-info">
         <h4>What’s your story? Get in touch</h4>
         <p>
-          Always available for freelancing if the right project comes along,
+          Always available for freelancing if the right project comes along.
           Feel free to contact me.
         </p>
 
@@ -14,19 +14,19 @@ const ContactInfo = () => {
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              123 Stree New York City , United States Of America 750065.
+              Oklahoma City, Oklahoma
             </span>
           </li>
 
           <li className="media">
             <i className="icon icon-envelope"></i>
-            <span className="media-body">support@domain.com</span>
+            <span className="media-body">mi@chelletabor.com</span>
           </li>
 
-          <li className="media">
+          {/* <li className="media">
             <i className="icon icon-phone"></i>
             <span className="media-body">+044 9696 9696 3636</span>
-          </li>
+          </li> */}
         </ul>
       </div>
       {/* End .contact-info */}

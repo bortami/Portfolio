@@ -19,10 +19,10 @@ const Portfolio = () => {
         <Tabs>
           <TabList className="filter d-flex flex-wrap justify-content-start">
             <Tab>All</Tab>
-            <Tab>Branding</Tab>
-            <Tab>Photography</Tab>
-            <Tab>Fashion</Tab>
-            <Tab>Product</Tab>
+            <Tab>Web Design</Tab>
+            <Tab>Graphic Design</Tab>
+            <Tab>Writing</Tab>
+            <Tab>Projects</Tab>
           </TabList>
           {/* End tablist */}
 
@@ -253,8 +253,8 @@ const Portfolio = () => {
                   <div className="portfolio-box-01">
                     <div className="portfolio-img">
                       <div className="portfolio-info">
-                        <h5>Web Application</h5>
-                        <span>Behance Shot</span>
+                        <h5>Blog Redesign</h5>
+                        <span>Sean's Wild World</span>
                       </div>
                       {/* End .portfolio-info */}
                       <a
