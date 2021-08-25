@@ -12,7 +12,7 @@ import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeOne = () => {
-  useDocumentTitle("Nairo || Theme Light React Personal Portfolio Template");
+  useDocumentTitle("Michelle Tabor || Just Another Developer");
   document.body.classList.add("theme-light");
   return (
     <div className="main-left">

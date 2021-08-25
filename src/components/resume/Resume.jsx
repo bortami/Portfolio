@@ -7,8 +7,8 @@ const resumeContent = [
     jobType: `Bridges | In-Office`,
     jobDuration: `Jan 2021 - Present`,
     timeDuraton: `Full Time`,
-    compnayName: "Bridges Strategies and Digital Marketing",
-    jobDescription: `I develop custom HubSpot based web soltuions.`,
+    compnayName: "Bridges: A Revenue Growth Agency",
+    jobDescription: `I develop custom HubSpot based web solutions.`,
   },
   {
     jobPosition: `Event Marketing Manager`,
@@ -31,17 +31,17 @@ const resumeContent = [
 const educatonContent = [
   {
     passingYear: "2021",
-    degreeTitle: "Associates in Science in Business Management",
-    instituteName: "University Of Oklahoma",
+    degreeTitle: "Associates in Applied Science in Management",
+    instituteName: "Oklahoma State University",
   },
   {
     passingYear: "2018 - 2019",
     degreeTitle: "Certificate in Front-End Development",
-    instituteName: "NewForece Software School",
+    instituteName: "NewForce Software School",
   },
   {
     passingYear: "2014-2015",
-    degreeTitle: "Accounting and Management",
+    degreeTitle: "Accounting",
     instituteName: "Marshall University",
   },
 ];
