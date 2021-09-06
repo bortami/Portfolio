@@ -3,12 +3,12 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Director of Web Developmeny and Interactive`,
+    jobPosition: `Director of Web Development and Interactive`,
     jobType: `Bridges | In-Office`,
     jobDuration: `Jan 2021 - Present`,
     timeDuraton: `Full Time`,
     compnayName: "Bridges: A Revenue Growth Agency",
-    jobDescription: `I develop custom HubSpot based web solutions.`,
+    jobDescription: `I develop custom HubSpot based web solutions for B2B clients. I migrate, build, and optimize clients' websites and software to improve CRO, technical SEO, and operations processes.`,
   },
   {
     jobPosition: `Event Marketing Manager`,
@@ -30,7 +30,7 @@ const resumeContent = [
 
 const educatonContent = [
   {
-    passingYear: "2021",
+    passingYear: "Expected 2022",
     degreeTitle: "Associates in Applied Science in Management",
     instituteName: "Oklahoma State University",
   },
