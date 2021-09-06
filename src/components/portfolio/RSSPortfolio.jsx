@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Masonry from "react-masonry-css";
 import { FiPlus } from "react-icons/fi";
-import { FaLockOpen } from "react-icons/fa";
+import Fade from "react-reveal/Fade";
 
 const breakpointColumnsObj = {
   default: 3,
@@ -15,7 +15,7 @@ export default function RSSPortfolio() {
 
   const [items, setItems] = useState([]);
   
-  const RSS_URL = "http://blog.chelletabor.com/feeds/posts/default/-/portfolio?alt=rss";
+  const RSS_URL = "http://blog.chelletabor.com/rss.xml";
 
 
 const getRss = async (RSS_URL) => {
@@ -55,10 +55,14 @@ useEffect(() => {
                       <a
                         href={item.link}
                         >
+
+
+                          <Fade>
                         <img
                           src={item.image[1]}
                           alt={item.title}
                         />
+                        </Fade>
                       </a>
                       {/* End gallery link */}
 
