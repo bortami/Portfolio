@@ -36,6 +36,7 @@ const HomeOne = () => {
           </div>
           <RSSPortfolio />
         </div>
+        <h5><a href="http://blog.chelletabor.com/search/label/Portfolio">More ...</a></h5>
       </section>
       {/* End Portfolio Section */}
 
@@ -45,7 +46,7 @@ const HomeOne = () => {
             <h3>Latest Blog.</h3>
           </div>
           <RSSPortfolio />
-          <a href="http://blog.chelletabor.com/search/label/Portfolio">More ...</a>
+          
         </div>
       </section>
       {/* End Blog Section */}
