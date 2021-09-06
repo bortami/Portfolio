@@ -11,6 +11,7 @@ import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
 import RSSPortfolio from "../../components/portfolio/RSSPortfolio";
+import RSSBlog from "../../components/blog/RssBlog";
 
 const HomeOne = () => {
   useDocumentTitle("Michelle Tabor || Just Another Developer");
@@ -45,8 +46,8 @@ const HomeOne = () => {
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
-          <RSSPortfolio />
-          
+            <RSSBlog/>  
+            <h5><a href="http://blog.chelletabor.com/search/label/blog">More ...</a></h5>        
         </div>
       </section>
       {/* End Blog Section */}

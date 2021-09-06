@@ -15,7 +15,7 @@ export default function RSSPortfolio() {
 
   const [items, setItems] = useState([]);
   
-  const RSS_URL = "http://blog.chelletabor.com/rss.xml";
+  const RSS_URL = "http://blog.chelletabor.com/rss.xml?category=Portfolio";
 
 
 const getRss = async (RSS_URL) => {
@@ -23,7 +23,7 @@ const getRss = async (RSS_URL) => {
   const { contents } = await res.json();
   const feed = new window.DOMParser().parseFromString(contents, "text/xml");
   var items = feed.querySelectorAll("item");
-  const feedItems = [...items].map((el)=> ({
+  const feedItems = [...items].slice(0, 5).map((el)=> ({
     link: el.querySelector("link").innerHTML,
     title: el.querySelector("title").innerHTML,
     category: el.querySelector("category").innerHTML,
