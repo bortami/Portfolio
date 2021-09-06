@@ -10,6 +10,7 @@ import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
+import RSSPortfolio from "../../components/portfolio/RSSPortfolio";
 
 const HomeOne = () => {
   useDocumentTitle("Michelle Tabor || Just Another Developer");
@@ -33,19 +34,19 @@ const HomeOne = () => {
           <div className="title">
             <h3>My Portfolio.</h3>
           </div>
-          <Portfolio />
+          <RSSPortfolio />
         </div>
       </section>
       {/* End Portfolio Section */}
 
-      {/* <section id="blog" className="section">
+       <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
-          <Blog />
+          <RSSPortfolio />
         </div>
-      </section> */}
+      </section>
       {/* End Blog Section */}
 
       <section id="contactus" className="section theme-light dark-bg">
