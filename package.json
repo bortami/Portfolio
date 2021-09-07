@@ -24,6 +24,7 @@
     "react-tooltip": "^4.2.21",
     "react-transition-group": "^4.4.2",
     "react-video-tag": "0.0.10",
+    "rss-reader": "^1.0.0",
     "simple-react-lightbox": "^3.6.6",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"

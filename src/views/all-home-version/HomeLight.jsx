@@ -10,9 +10,11 @@ import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/Footer";
 import useDocumentTitle from "../../components/useDocumentTitle";
+import RSSPortfolio from "../../components/portfolio/RSSPortfolio";
+import RSSBlog from "../../components/blog/RssBlog";
 
 const HomeOne = () => {
-  useDocumentTitle("Nairo || Theme Light React Personal Portfolio Template");
+  useDocumentTitle("Michelle Tabor || Just Another Developer");
   document.body.classList.add("theme-light");
   return (
     <div className="main-left">
@@ -33,19 +35,21 @@ const HomeOne = () => {
           <div className="title">
             <h3>My Portfolio.</h3>
           </div>
-          <Portfolio />
+          <RSSPortfolio />
         </div>
+        <h5><a href="http://blog.chelletabor.com/search/label/Portfolio">More ...</a></h5>
       </section>
       {/* End Portfolio Section */}
 
-      {/* <section id="blog" className="section">
+       <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
-          <Blog />
+            <RSSBlog/>  
+            <h5><a href="http://blog.chelletabor.com/search/label/blog">More ...</a></h5>        
         </div>
-      </section> */}
+      </section>
       {/* End Blog Section */}
 
       <section id="contactus" className="section theme-light dark-bg">

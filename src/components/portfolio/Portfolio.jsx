@@ -28,26 +28,26 @@ const Portfolio = () => {
 
           <SRLWrapper>
             <TabPanel>
-              <div className="portfolio-content ">
+              <div className="portfolio-content">
                 <Masonry
                   breakpointCols={breakpointColumnsObj}
                   className="my-masonry-grid"
                   columnClassName="my-masonry-grid_column"
                 >
-                  <div className="portfolio-box-01">
+                 <div className="portfolio-box-01">
                     <div className="portfolio-img">
                       <div className="portfolio-info">
-                        <h5>Motion Graphy</h5>
-                        <span>Android App</span>
-                      </div>
+                        <h5>Blog Redesign</h5>
+                        <span>Sean's Wild World</span>
+                        </div>
                       {/* End .portfolio-info */}
                       <a
-                        href="img/portfolio/m-portfolio-1.jpg"
+                        href="img/portfolio/m-portfolio-9.jpg"
                         className="gallery-link"
                       >
                         <img
-                          src="img/portfolio/m-portfolio-1.jpg"
-                          alt="Motion Graphy"
+                          src="img/portfolio/m-portfolio-9.jpg"
+                          alt="Sean's Wild World"
                         />
                       </a>
                       {/* End gallery link */}
@@ -91,8 +91,8 @@ const Portfolio = () => {
                   <div className="portfolio-box-01">
                     <div className="portfolio-img">
                       <div className="portfolio-info">
-                        <h5>Visual Design</h5>
-                        <span>Themeforest Market</span>
+                      <h5>Event Landing Page</h5>
+                        <span>Frozen Nose 5k</span>
                       </div>
                       {/* End .portfolio-info */}
                       <a
@@ -258,11 +258,11 @@ const Portfolio = () => {
                       </div>
                       {/* End .portfolio-info */}
                       <a
-                        href="img/portfolio/m-portfolio-9.jpg"
+                        href="img/portfolio/m-portfolio-8.jpg"
                         className="gallery-link"
                       >
                         <img
-                          src="img/portfolio/m-portfolio-9.jpg"
+                          src="img/portfolio/m-portfolio-8.jpg"
                           alt="Web Application"
                         />
                       </a>
@@ -291,17 +291,17 @@ const Portfolio = () => {
                   <div className="portfolio-box-01">
                     <div className="portfolio-img">
                       <div className="portfolio-info">
-                        <h5>Motion Graphy</h5>
-                        <span>Android App</span>
-                      </div>
+                        <h5>Blog Redesign</h5>
+                        <span>Sean's Wild World</span>
+                        </div>
                       {/* End .portfolio-info */}
                       <a
-                        href="img/portfolio/m-portfolio-6.jpg"
+                        href="img/portfolio/m-portfolio-9.jpg"
                         className="gallery-link"
                       >
                         <img
-                          src="img/portfolio/m-portfolio-6.jpg"
-                          alt="Motion Graphy"
+                          src="img/portfolio/m-portfolio-9.jpg"
+                          alt="Sean's Wild World"
                         />
                       </a>
                       {/* End gallery link */}
@@ -317,8 +317,8 @@ const Portfolio = () => {
                   <div className="portfolio-box-01">
                     <div className="portfolio-img">
                       <div className="portfolio-info">
-                        <h5>Visual Design</h5>
-                        <span>Themeforest Market</span>
+                        <h5>Event Landing Page</h5>
+                        <span>Frozen Nose 5k</span>
                       </div>
                       {/* End .portfolio-info */}
                       <a

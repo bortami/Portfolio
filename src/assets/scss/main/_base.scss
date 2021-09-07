@@ -44,6 +44,10 @@ h5,
 h6 {
   color: #0b0b13;
 }
+#work h5, #blog h5{
+  margin-top: 1rem;
+  text-align: center;
+}
 mark {
   background-image: linear-gradient($px-theme, $px-theme);
   background-size: 100% 3px;

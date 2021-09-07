@@ -8,13 +8,23 @@ const AwardContnet = [
   },
   {
     img: "de",
-    awardName: "CMS Developer",
+    awardName: "HubSpot CMS for Developers",
     awardFor: "Expires 2022",
   },
   {
     img: "im",
     awardName: "Inbound Marketing",
     awardFor: "Epires 2022",
+  },
+  {
+    img: "ms",
+    awardName: "HubSpot Marketing Software",
+    awardFor: "Epires 2022",
+  },
+  {
+    img: "fe",
+    awardName: "Front-End Devlopment",
+    awardFor: "Awarded Oct 2019",
   },
 ];
 

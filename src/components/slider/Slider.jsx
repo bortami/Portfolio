@@ -53,7 +53,7 @@ const Slider = () => {
                 <div className="mt-4">
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
+                    href="/Michelle-Tabor-Resume.pdf"
                     download
                   >
                     {sliderContent.btnText}
@@ -68,7 +68,7 @@ const Slider = () => {
           className="hb-me"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner.png"
+              process.env.PUBLIC_URL + "img/slider/header.png"
             })`,
           }}
         ></div>

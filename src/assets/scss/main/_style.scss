@@ -61,6 +61,7 @@
   }
 }
 
+
 .separated {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -165,11 +166,11 @@
     position: absolute;
     right: 0;
     width: 50vw;
-    height: 100%;
+    height: 90%;
     background-size: cover;
-    top: 0;
+    bottom: 0;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center right;
     @media screen and (max-width: 1199px) {
       width: 84vw;
       opacity: 0.6;
