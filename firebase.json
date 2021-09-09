@@ -1,117 +1,110 @@
 {
   "hosting": {
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-
-
-    "redirects":[
-      {
-      "source": "https://chelletabor.com/post/frozen-nose-5k-event-website/",
-      "destination": "http://blog.chelletabor.com/2019/12/frozen-nose-5k-event-website.html",
+    "cleanUrls": true,
+    "redirects": [
+       {
+      "source": "/post/frozen-nose-5k-event-website/",
+      "destination": "https://blog.chelletabor.com/2019/12/frozen-nose-5k-event-website.html",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/about/",
-      "destination": "https://www.chelletabor.com/#about",
+      "source": "/about",
+      "destination": "/#about",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/disc-golf-course/",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/post/disc-golf-course",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/post/wildflower-5k-trail-map/",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/post/wildflower-5k-trail-map",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/work/work/projects/",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/work/work/projects",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/page/3/",
-      "destination": "http://blog.chelletabor.com/search?updated-max=2019-01-14T10%3A58%3A00-08%3A00&max-results=6#PageNo=2",
+      "source": "/page/3",
+      "destination": "https://blog.chelletabor.com/search?updated-max=2019-01-14T10%3A58%3A00-08%3A00&max-results=6#PageNo=2",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/work/work/design/",
-      "destination": "http://blog.chelletabor.com/search/label/Web%20Design?&max-results=6",
+      "source": "/work/work/design",
+      "destination": "https://blog.chelletabor.com/search/label/Web%20Design?&max-results=6",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/post/sean-s-wild-world-blog-redesign/",
-      "destination": "http://blog.chelletabor.com/2020/08/seans-wild-world-blog-redesign.html",
+      "source": "/post/sean-s-wild-world-blog-redesign",
+      "destination": "https://blog.chelletabor.com/2020/08/seans-wild-world-blog-redesign.html",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/post/tag/kiskadee/",
-      "destination": "http://blog.chelletabor.com/2020/09/kiskadee-bookkeeping-business-plan.html",
+      "source": "/post/tag/kiskadee",
+      "destination": "https://blog.chelletabor.com/2020/09/kiskadee-bookkeeping-business-plan.html",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/post/kiskadee-bookkeeping-business-plan/",
-      "destination": "http://blog.chelletabor.com/2020/09/kiskadee-bookkeeping-business-plan.html",
+      "source": "/post/kiskadee-bookkeeping-business-plan",
+      "destination": "https://blog.chelletabor.com/2020/09/kiskadee-bookkeeping-business-plan.html",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/work/work/",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/work/work",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/work/work/page/3/",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/work/work/page/3",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://chelletabor.com/post/2019/09/",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/post/2019/09",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/bfspf-member-shirt-design",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/post/bfspf-member-shirt-design",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/wildflower-festival-event-proposal",
-      "destination": "http://blog.chelletabor.com/2019/01/wildflower-festival-web-design.html",
+      "source": "/post/wildflower-festival-event-proposal",
+      "destination": "https://blog.chelletabor.com/2019/01/wildflower-festival-web-design.html",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/ted-s-bees",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/post/ted-s-bees",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/wildflower-5k-trail-map",
-      "destination": "http://blog.chelletabor.com/2019/01/wildflower-festival-web-design.html",
+      "source": "/post/wildflower-5k-trail-map",
+      "destination": "https://blog.chelletabor.com/2019/01/wildflower-festival-web-design.html",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/solomon-strauss",
-      "destination": "http://blog.chelletabor.com/2019/04/solomon-strauss-web-and-print-design.html",
+      "source": "/post/solomon-strauss",
+      "destination": "https://blog.chelletabor.com/2019/04/solomon-strauss-web-and-print-design.html",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/american-legion-s-easter-egg-hunt",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/post/american-legion-s-easter-egg-hunt",
+      "destination": "/#work",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/post/solomon-strauss-magician",
-      "destination": "http://blog.chelletabor.com/2019/04/solomon-strauss-web-and-print-design.html",
+      "source": "/post/solomon-strauss-magician",
+      "destination": "https://blog.chelletabor.com/2019/04/solomon-strauss-web-and-print-design.html",
       "type": 301
     },
     {
-      "source": "https://www.chelletabor.com/work",
-      "destination": "https://www.chelletabor.com/#work",
+      "source": "/work",
+      "destination": "/#work",
       "type": 301
     }
   ],
@@ -120,6 +113,12 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]    
   }
 }
