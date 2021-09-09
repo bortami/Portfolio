@@ -1,0 +1,4 @@
+Built using Nairo React Template https://themeforest.net/item/nairo-react-personal-portfolio-template/33404455 by ib-themeforest
+Custom Modules built by me, Michelle Tabor, CMS Developer at Bridges, https://www.bridgerev.com
+Blog Theme from ColorIB https://colorlib.com/
+Hosted on Firebase and GitHubg Pages
